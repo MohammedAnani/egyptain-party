@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.navbar li a{
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    /* margin: 20px; */
+    display: inline-block;
+}
+@media (max-width:1024px){
+.navbar{
+    align-items: flex-start;
+}
+#open{
+    margin-top: 20px;
+}
+   
+}
+.contact-icon i{
+border: 2px solid black;
+padding: 10px;
+
+margin-right: 10px;
+transition: all 1s;
+}
+
+.contact-icon a:hover i{
+    background-color: #3B82F6;
+    color: white;
+    border-color: gray;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
